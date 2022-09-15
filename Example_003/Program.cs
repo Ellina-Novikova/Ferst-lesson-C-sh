@@ -1,6 +1,6 @@
 ﻿// Приложение 3. Сложение двух чисел
-int numberA = 8;
-int numberB = 12;
+int numberA = new Random().Next(1, 10);
+int numberB = new Random().Next(1, 10);
 int result = numberA + numberB;
 Console.Write(numberA);
 Console.Write("+");
